@@ -1,2 +1,12 @@
 # Number-Partition-Problem
-Partition problem (Number partition problem ) 这是神州南部的SZ大学某门水课的大作业。如果你也不幸进了这所大学，也跟我一样报了LH老师的课，我的这份作业也许能帮你节省不少时间。
+
+环境：
+1. python3.6
+2. Numpy
+3. jupyter notebook
+
+使用：
+
+1. 数据存放在testdata里面，这些数据都是generate_data.ipynb生成的。
+2. 文件dp_bs_v2.py是串行版本，直接 ```python dp_bs_vs.py``` 运行。
+3. 文件dp_bs_parallel_v2.py是并行版本，直接运行```python dp_bs_parallel.py```运行。
